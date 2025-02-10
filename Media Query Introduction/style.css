@@ -1,0 +1,54 @@
+
+body{
+    padding: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 4px 8px #f2f2f2;
+    background-color: lightblue;
+}
+
+/* extra small */
+
+@media (max-width:576px){
+
+    .container{
+        background-color: red;
+    }
+}
+
+/* small screen */
+@media (min-width:577px) and (max-width:768px){
+
+    .container{
+        background-color: rgb(76, 0, 255);
+    }
+}
+
+/* medium */
+@media (min-width:769px) and (max-width:992px){
+
+    .container{
+        background-color: rgb(145, 255, 0);
+    }
+}
+
+/* large screen */
+
+@media (min-width:993px) and (max-width:1200px){
+
+    .container{
+        background-color: rgb(255, 0, 128);
+    }
+}
+
+/* extra large screen */
+
+@media (min-width:1201px){
+
+    .container{
+        background-color: pink;
+    }
+}
