@@ -1,6 +1,5 @@
-# **Lecture Notes: Bootstrap Grid System **  
+## **Lecture Notes: Bootstrap Grid System** 
 
-## **Introduction to Bootstrap Grid**  
 The **Bootstrap Grid System** is a **responsive, mobile-first** layout system that divides a page into **12 equal columns**. Using rows and columns, we can create **flexible and dynamic** layouts.  
 
 ---
