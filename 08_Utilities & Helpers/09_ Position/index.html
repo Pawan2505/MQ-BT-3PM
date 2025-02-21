@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .container {
+            height: 300px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+    
+        Position :
+         1. sticky(container -> top -> top se 100px -> stick -> web scroll -> waha se upper )
+         2. fixed (box -> anywhere -> fixed-> scroll -> web -> fixed box -> not move)
+         3. absolute(stack -> all box -> store -> parent start left-top -> move -> left, right ,top, bottom)
+         4. relative (original position -> box move)
+         5. static (default)
+
+   
+   -->
+
+    <div class="container border border-success d-flex gap-5 pt-2 mt-4">
+        <div class="box border border-primary position-static h-25">box-1</div>
+        <div class="box border border-primary position-static start-50 top-50">box-2</div>
+        <div class="box border border-primary position-static">box-3</div>
+        <div class="box border border-primary position-static">box-4</div>
+    </div>
+
+    <div class="container border border-success d-flex gap-5 pt-2 mt-4">
+        <div class="box border border-primary  h-25">box-1</div>
+        <div class="box border border-primary position-relative top-50 start-50">box-2</div>
+        <div class="box border border-primary position-relative end-25 ">box-3</div>
+        <div class="box border border-primary ">box-4</div>
+    </div>
+    <div class="container border border-success position-relative d-flex gap-5 pt-2 mt-4">
+        <div class="box border border-primary position-absolute bg-primary start-50 bottom-50">box-1</div>
+        <div class="box border border-primary z-1 position-absolute bg-info">box-2</div>
+        <div class="box border border-primary z-2 position-absolute bg-danger ">box-3</div>
+        <div class="box border border-primary position-absolute bg-success">box-4</div>
+    </div>
+    <div class="container border border-success position-relative d-flex gap-5 pt-2 mt-4">
+        <div class="box border border-primary position-fixed bg-primary start-50 bottom-0">box-1</div>
+      
+    </div>
+    <div class="border border-success position-relative d-flex gap-5 pt-2 mt-4">
+        <div class="box border border-primary position-sticky bg-primary top-0 start-50 bottom-0">box-1</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minus natus est a, reiciendis, odio molestias vel ut molestiae ipsa laudantium possimus nam eveniet! Cum amet numquam consequuntur recusandae, debitis corrupti non, laudantium autem earum nisi saepe harum, inventore beatae. Quisquam mollitia adipisci perferendis voluptatum, quibusdam totam atque quasi laudantium repellat accusamus culpa eligendi praesentium dicta! Excepturi modi officiis, doloremque non voluptates id repudiandae. Voluptates, rem animi temporibus porro ad adipisci ea. Veniam aliquam alias qui temporibus vero numquam atque, fugit consequuntur iure dolorum explicabo cupiditate distinctio. Unde voluptas, error ducimus sequi quaerat neque reiciendis explicabo rem nobis ad nulla totam fugiat expedita, cupiditate dolore repudiandae id perspiciatis inventore. Dolorem ipsam pariatur magni blanditiis corporis odio quisquam aliquam laborum, incidunt atque fuga quis perferendis facere beatae commodi officiis? Provident consectetur minus, veniam asperiores obcaecati officiis quaerat atque dignissimos consequatur soluta totam perspiciatis mollitia magnam. Corporis mollitia porro pariatur fugit iure, vel, sint necessitatibus nihil illo explicabo quae! Praesentium nesciunt vitae rem odit! Neque optio impedit corporis aperiam quisquam aliquam ipsa quaerat itaque. Dolorum, dicta. Quia, quo voluptatum quibusdam magni fugiat ratione, nam voluptatibus in ab voluptate est ullam qui repudiandae iste earum harum asperiores odit excepturi. Nostrum impedit voluptatum eaque ipsum natus architecto excepturi doloremque qui dolores suscipit asperiores, aperiam vero, distinctio, ex iste quod veritatis similique omnis ducimus nesciunt sequi. Veritatis deserunt corrupti quae sint commodi delectus culpa, quasi corporis fuga quidem repudiandae iure ut cumque? Consectetur quis alias nulla eaque, esse magni aut beatae, minus architecto provident distinctio necessitatibus nemo inventore. Quaerat animi, rerum reiciendis nulla officia voluptatem excepturi, quia quam aut corporis dolore officiis inventore obcaecati neque commodi, ex enim! Quam eveniet aliquam ducimus laboriosam autem sit repellat excepturi optio, illo nemo quisquam maxime accusamus? Libero est necessitatibus quaerat a. Repellendus quae ullam fugiat, iste eaque quidem debitis sint consequuntur in rem eius. Accusamus minima aliquam neque iste laborum officia totam, fuga deserunt reprehenderit vero fugit ratione magni asperiores amet ex architecto alias suscipit maxime. Deleniti, deserunt doloribus quia molestiae iste eius saepe repudiandae sed error voluptate reprehenderit quis labore excepturi nulla beatae ad delectus aliquam iure! Architecto ab atque cumque sit, similique quam, veritatis obcaecati nostrum aliquam officia velit doloremque tempora, reprehenderit quae qui id ea. Quo eius aspernatur nobis quasi porro ad commodi iusto quod. Impedit facilis labore quasi mollitia beatae voluptates. Atque quia fugit cupiditate autem officiis ea assumenda ad hic sint tempore! Reprehenderit enim quidem voluptates distinctio id adipisci nemo aut magnam ab placeat. Id rerum ducimus nemo assumenda deserunt suscipit blanditiis quia pariatur repellendus nisi nihil necessitatibus ipsam, quaerat vero, neque voluptates, beatae cumque praesentium at? Dicta ratione, quasi omnis voluptates perspiciatis animi voluptatibus reiciendis, hic sequi et modi nam maiores nulla sed quo nostrum nihil illo esse quos quibusdam. Eum blanditiis tenetur porro voluptates harum voluptate eaque asperiores a. Corporis illum perspiciatis corrupti, vel quidem fugit, architecto, harum ipsam placeat doloribus minus quis ex commodi? Iste assumenda eligendi eum fugiat id temporibus, nisi soluta voluptas possimus nostrum libero, fuga asperiores. Soluta sit expedita dolores rerum laboriosam sapiente cum harum quia voluptatem dolorum. Dolorum ullam sit, exercitationem impedit natus ipsum voluptatibus nemo molestias cupiditate eum consequuntur sint quis quia sequi iste laborum dolores nam praesentium ex omnis autem ratione expedita a incidunt! Reprehenderit quae aut sunt. Cumque quisquam quam, facere adipisci quas eius hic assumenda corporis quo cupiditate ipsum, iusto inventore explicabo, sed repellat neque minus corrupti? Facere fugit rem voluptatem optio tempore dolore corporis! A, corrupti autem dicta cumque officiis quaerat, voluptatibus praesentium deleniti facere architecto id sapiente quisquam nam commodi magni quam, omnis cupiditate aliquid nostrum iste placeat voluptate? Tempora fuga numquam doloribus, debitis ad rerum ratione culpa similique omnis, quis amet repudiandae nostrum sint iure incidunt minima repellat recusandae minus id ipsum, explicabo eius vitae aspernatur? Esse quisquam voluptates eaque repellat eius explicabo. Consequuntur unde voluptas similique voluptate quas voluptatem? Est unde at laborum quas sapiente enim aperiam eaque nihil soluta cupiditate ex ipsam molestias quasi, sunt recusandae id suscipit esse quia, officia quod. Autem temporibus delectus tenetur ut quis. Aspernatur asperiores accusamus molestiae porro hic illum, vitae ex necessitatibus veniam aliquam repellendus. Earum alias iure id distinctio reprehenderit vel excepturi maxime tempora, natus dicta repellat dolor optio itaque animi consectetur exercitationem illum sunt, soluta ad. Aut incidunt cumque, totam consequuntur velit hic soluta sapiente magni ut quod quis modi mollitia deserunt debitis consectetur expedita nisi quo eos enim voluptates magnam officiis esse obcaecati laboriosam! Expedita, modi debitis. Voluptatem nisi minima quo in atque sit a itaque, aliquam ipsam voluptatum vero. Porro itaque corrupti animi nisi voluptatem nesciunt adipisci excepturi hic inventore? Porro, iure nisi? Quaerat exercitationem odit, quis vero veniam placeat debitis? Dolorum corporis porro, dignissimos corrupti atque quam earum quia iure ipsum consectetur cupiditate ullam aliquam accusamus beatae repellat minus sapiente, alias, ratione quae! Id expedita reiciendis minus doloremque, nemo, voluptas ut sint dolorem alias illum perferendis rerum, provident vel quidem in! Saepe, laudantium magni, modi ducimus perspiciatis mollitia eius a asperiores corporis quibusdam vero molestiae fuga in nostrum repellat accusamus ipsum incidunt? Sapiente natus eaque molestias, quo tempora consectetur voluptatibus harum molestiae iusto asperiores repellendus. Adipisci architecto et vitae nisi nobis fugiat neque esse, debitis dolores est repellendus molestiae sapiente voluptate molestias voluptas rerum repudiandae ipsam ducimus aperiam. Excepturi amet vitae libero soluta temporibus fugit nam voluptates, nisi accusamus reiciendis magnam pariatur quibusdam labore cumque itaque. Animi mollitia optio quisquam culpa commodi aspernatur vel? Repellendus nemo totam recusandae possimus, tenetur ad? Quasi, laborum veniam! Harum ea quae quisquam incidunt aspernatur labore eum accusantium pariatur totam. Laboriosam eum quae ex ut ratione deserunt id architecto cum, incidunt eveniet perspiciatis necessitatibus eius itaque omnis, fugit atque nihil! Laborum ullam voluptatibus ut nostrum mollitia obcaecati nisi rerum eos possimus optio libero aspernatur impedit, quisquam quam eligendi excepturi inventore praesentium aperiam! Consectetur libero voluptas cumque id totam modi hic architecto fugiat unde dolorum impedit atque nemo reprehenderit placeat at dignissimos culpa repellendus, molestiae repellat. Dolorum consequatur nesciunt, omnis dolores voluptates repudiandae molestias. Non magnam odio dolor amet deserunt assumenda nulla.</p>
+    </div>
+
+   
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>50
