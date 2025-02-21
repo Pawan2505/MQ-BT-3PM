@@ -1,4 +1,4 @@
-### **Lecture Notes: Tables in Bootstrap **
+### **Lecture Notes: Tables in Bootstrap**
 
 ---
 
