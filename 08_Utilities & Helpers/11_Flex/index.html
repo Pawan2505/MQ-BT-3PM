@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Flex Container with Column Direction -->
+    <div class="container p-3 m-5 d-flex gap-5 flex-column flex-md-row flex-lg-column">
+        <div class="p-4 border border-primary">Home1</div>
+        <div class="p-4 border border-primary">Home2</div>
+        <div class="p-4 border border-primary">Home3</div>
+        <div class="p-4 border border-primary">Home4</div>
+    </div>
+
+    <!-- Flex Container with Row-Reverse Direction -->
+    <div class="container p-3 m-5 d-flex gap-5 flex-row-reverse">
+        <div class="p-4 border border-primary">Home1</div>
+        <div class="p-4 border border-primary">Home2</div>
+        <div class="p-4 border border-primary">Home3</div>
+        <div class="p-4 border border-primary">Home4</div>
+    </div>
+
+    <!-- Flex Container with Justify Content Around and Center -->
+    <div
+        class="container p-3 m-5 d-flex gap-5 justify-content-around justify-content-md-end justify-content-lg-center border border-success">
+        <div class="p-4 border border-primary">Home1</div>
+        <div class="p-4 border border-primary">Home2</div>
+        <div class="p-4 border border-primary">Home3</div>
+        <div class="p-4 border border-primary">Home4</div>
+    </div>
+
+    <!-- Flex Container with Align Items Center -->
+    <div style="height: 600px">
+        <div class="container p-3 m-5 d-flex gap-5 align-items-center h-50 border border-success">
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+        </div>
+
+        <!-- Flex Container with Align Items End -->
+        <div class="container p-3 m-5 d-flex gap-5 align-items-end h-50 border border-success">
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+        </div>
+
+        <!-- Flex Container with Align Items Start (Responsive) -->
+        <div
+            class="container p-3 m-5 d-flex gap-5 align-items-start align-items-md-end align-items-lg-center h-50 border border-success">
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+        </div>
+
+        <!-- Flex Container with Wrap and Align Content Start -->
+        <div class="container p-3 m-5 d-flex align-content-start flex-wrap h-50 border border-success">
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+        </div>
+
+        <!-- Flex Container with Self Alignment and Wrap -->
+        <div class="container p-3 m-5 d-flex align-items-start gap-3 flex-wrap h-50 border border-success">
+            <div class="p-4 border border-primary">Home1</div>
+            <div class="p-4 border align-self-center border-primary">Home2</div>
+            <div class="p-4 border border-primary">Home3</div>
+            <div class="p-4 border border-primary">Home4</div>
+        </div>
+
+        <!-- Flex Container with Flex Grow Example -->
+        <div class="d-flex shadow-lg p-2">
+            <div class="p-2 flex-grow-1 border border-primary order-3">Flex item Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Aliquam, omnis.</div>
+            <div class="p-2 flex-grow-2 border border-primary">Flex item</div>
+            <div class="p-2 flex-grow-3 border border-primary">Third flex item</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
