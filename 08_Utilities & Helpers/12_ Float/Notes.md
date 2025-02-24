@@ -1,4 +1,4 @@
-## **Bootstrap Float Utilities - Simple Notes**
+## **Lecture Notes: Bootstrap Float Utilities**
 
 ### **What is Float in Bootstrap?**
 
